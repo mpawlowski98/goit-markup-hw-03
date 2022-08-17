@@ -1,5 +1,144 @@
 body {
-  font-family: "Roboto";
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--hotblack);
+  background: #ffffff;
+}
+:root {
+  --pink: #8b008b;
+  --blue: #0000ff;
+  --lowblue: #2196f3;
+  --black: #000000;
+  --hotblack: #212121;
+  --gray: #757575;
+  --white: #ffffff;
+  --lowgray: #2f303a;
+  --lightgrey: #f5f4fa;
+  --red: #ff0000;
+}
+.log {
+  font-family: "Raleway";
   font-style: normal;
-  color: red;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--lowblue);
+}
+.studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--black);
+}
+button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--hotblack);
+}
+button:hover,
+button:focus,
+button:active {
+  color: var(--red);
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  cursor: pointer;
+  color: var(--white);
+}
+.button:hover,
+.button:focus,
+.button:active {
+  color: var(--red);
+}
+a {
+  text-decoration: none;
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--hotblack);
+}
+.link:hover,
+.link:focus,
+.link:active {
+  color: var(--red);
+}
+.link-up {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--lowblue);
+}
+.link-up:hover,
+.link-up:focus,
+.link-up:active {
+  color: var(--red);
+}
+.first {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--white);
+}
+.description {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--gray);
+}
+.title-description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.name {
+  font-weight: 500;
+}
+.job {
+  color: var(--gray);
+}
+.footer-link {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--red);
+}
+footer {
+  background: var(--lowgray);
+}
+.first {
+  background: var(--lowgray);
+}
+.team {
+  background: var(--lightgrey);
+}
+.footer-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--white);
+}
+.projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+.projects-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--gray);
+}
+.footer-studio {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--white);
 }
