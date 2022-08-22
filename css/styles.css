@@ -1,166 +1,144 @@
-<!DOCTYPE html>
-<html lang="pl-PL">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <h3>
-        <a class="logo" href="index.html"
-          >Web<span class="studio">Studio</span></a
-        >
-      </h3>
-      <nav>
-        <ul>
-          <li><a class="link" href="index.html">Agencja</a></li>
-          <li><a class="link-active" href="portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="index.html">Kontakt</a></li>
-        </ul>
-      </nav>
-      <a class="link-active" href="/info@devstudio.com">info@devstudio.com</a>
-      <a class="link" href="/+48111111111">+48 111 111 111</a>
-    </header>
-    <main>
-      <div>
-        <ul>
-          <li><button type="button">Wszystkie</button></li>
-          <li><button type="button">Strony</button></li>
-          <li><button type="button">Aplikacje</button></li>
-          <li><button type="button">Dizajn</button></li>
-          <li><button type="button">Marketing</button></li>
-        </ul>
-      </div>
-      <div>
-        <figure>
-          <img
-            src="./images/src.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Technocrack</p>
-            <p class="projects-text">Strona internetowa</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src2.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Grafika New Orlean vs Golden Star</p>
-            <p class="projects-text">Dizajn</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src3.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Restauracja Seafood</p>
-            <p class="projects-text">Aplikacja</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src4.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Projekt Prime</p>
-            <p class="projects-text">Marketing</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src5.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Projekt Boxes</p>
-            <p class="projects-text">Aplikacja</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src6.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Inspiration has no Borders</p>
-            <p class="projects-text">Strona internetowa</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src7.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Magazyn Limited Edition</p>
-            <p class="projects-text">Dizajn</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src8.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Projekt LAB</p>
-            <p class="projects-text">Marketing</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src9.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Growing Business</p>
-            <p class="projects-text">Aplikacja</p>
-          </figcaption>
-        </figure>
-      </div>
-    </main>
-
-    <footer>
-      <a class="logo" href="index.html"
-        >Web<span class="studio">Studio</span></a
-      >
-      <address>
-        <p class="footer-text">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a class="footer-link" href="/info@example.com">info@example.com</a>
-        <a class="footer-link" href="/+48111111111">+48 111 111 111</a>
-      </address>
-    </footer>
-  </body>
-</html>
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--hotblack);
+  background: #ffffff;
+}
+:root {
+  --pink: #8b008b;
+  --blue: #0000ff;
+  --lowblue: #2196f3;
+  --black: #000000;
+  --hotblack: #212121;
+  --gray: #757575;
+  --white: #ffffff;
+  --lowgray: #2f303a;
+  --lightgrey: #f5f4fa;
+  --red: #ff0000;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--lowblue);
+}
+.studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--black);
+}
+button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--hotblack);
+}
+button:hover,
+button:focus,
+button:active {
+  color: var(--red);
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  color: var(--white);
+}
+.button:hover,
+.button:focus,
+.button:active {
+  color: var(--red);
+}
+a {
+  text-decoration: none;
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--hotblack);
+}
+.link:hover,
+.link:focus,
+.link:active {
+  color: var(--red);
+}
+.link-active {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--lowblue);
+}
+.link-active:hover,
+.link-active:focus,
+.link-active:active {
+  color: var(--red);
+}
+.first {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--white);
+}
+.description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--gray);
+}
+.title-description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.name {
+  font-weight: 500;
+}
+.job {
+  color: var(--gray);
+}
+.footer-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--red);
+}
+footer {
+  background: var(--lowgray);
+}
+.first {
+  background: var(--lowgray);
+}
+.container--gray {
+  background: var(--lightgrey);
+}
+.footer-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white);
+}
+.projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--gray);
+}
+.footer-studio {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--white);
+}
