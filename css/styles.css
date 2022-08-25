@@ -143,13 +143,11 @@ footer {
   margin-right: auto;
 }
 .first {
-  margin: 200 452 280 452;
   text-align: center;
 }
 .section-top {
   padding-bottom: 94px;
   padding-top: 94px;
-  height: 600;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -251,33 +249,32 @@ footer {
 }
 .button-icon {
   display: flex;
-  justify-content: space-between;
-  padding: 0;
 }
 button {
   cursor: pointer;
 }
 .button-icons {
+  padding-right: 8px;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 56px;
+  font: inherit;
+}
+.buttonp {
+  border: none;
   border-radius: 4px;
+  padding: 6px 22px 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   color: var(--hotblack);
   letter-spacing: 0.03em;
-  padding: 6px 22px 6px 22px;
-  border: none;
-  display: flex;
-  width: auto;
-  justify-content: center;
-  margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .button-blue {
+  font: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -285,6 +282,7 @@ button {
   border-radius: 4px;
   border: none;
   color: var(--lightgrey);
+  padding: 6px 22px 6px 22px;
 }
 button:hover,
 button:focus,
@@ -307,19 +305,19 @@ button:active {
   margin: 0 auto;
   width: 1200px;
   padding-bottom: 94px;
+  display: flex;
 }
 .cardsp {
-  display: flex;
   justify-content: center;
   padding: 0;
   flex-wrap: wrap;
+  gap: 30px;
+  display: flex;
 }
 .itemsp {
   border: 1px solid #eeeeee;
-  flex-basis: calc(100% / 3);
-  background: #ffffff;
-  border-radius: 0px 0px 4px 4px;
-  padding: 0px;
+  flex-basis: calc((100% - 60px) / 3);
+  background-color: var(--white);
 }
 .projects {
   font-weight: 700;
