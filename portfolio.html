@@ -11,154 +11,206 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <a class="logo" href="index.html"
-        >Web<span class="studio">Studio</span></a
-      >
-      <nav>
-        <ul>
-          <li><a class="link" href="index.html">Agencja</a></li>
-          <li><a class="link-active" href="portfolio.html">Portfolio</a></li>
-          <li><a class="link" href="index.html">Kontakt</a></li>
-        </ul>
-      </nav>
-      <a class="link-active" href="/info@devstudio.com">info@devstudio.com</a>
-      <a class="link" href="/+48111111111">+48 111 111 111</a>
+    <header class="header">
+      <div class="container">
+        <a class="logo" href="index.html"
+          >Web<span class="studio">Studio</span></a
+        >
+        <nav>
+          <ul class="header-pages">
+            <li>
+              <a class="link-active" href="index.html">Agencja</a>
+            </li>
+            <li>
+              <a class="link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="link" href="index.html">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-links">
+          <a class="link-active" href="/info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="link" href="/+48111111111">+48 111 111 111</a>
+        </div>
+      </div>
     </header>
     <main>
-      <div>
-        <ul>
-          <li><button type="button">Wszystkie</button></li>
-          <li><button type="button">Strony</button></li>
-          <li><button type="button">Aplikacje</button></li>
-          <li><button type="button">Dizajn</button></li>
-          <li><button type="button">Marketing</button></li>
+      <div class="container-button">
+        <ul class="button-icon">
+          <li class="button-icons">
+            <button class="button-blue" type="button">Wszystkie</button>
+          </li>
+          <li class="button-icons">
+            <button class="button2" type="button">Strony</button>
+          </li>
+          <li class="button-icons">
+            <button class="button2" type="button">Aplikacje</button>
+          </li>
+          <li class="button-icons">
+            <button class="button2" type="button">Dizajn</button>
+          </li>
+          <li class="button-icons">
+            <button class="button2" type="button">Marketing</button>
+          </li>
         </ul>
       </div>
-      <div>
-        <figure>
-          <img
-            src="./images/src.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Technocrack</p>
-            <p class="projects-text">Strona internetowa</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src2.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Grafika New Orlean vs Golden Star</p>
-            <p class="projects-text">Dizajn</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src3.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Restauracja Seafood</p>
-            <p class="projects-text">Aplikacja</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src4.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Projekt Prime</p>
-            <p class="projects-text">Marketing</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src5.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Projekt Boxes</p>
-            <p class="projects-text">Aplikacja</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src6.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Inspiration has no Borders</p>
-            <p class="projects-text">Strona internetowa</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src7.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Magazyn Limited Edition</p>
-            <p class="projects-text">Dizajn</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src8.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Projekt LAB</p>
-            <p class="projects-text">Marketing</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./images/src9.jpg"
-            alt="zdjecie John Doe"
-            width="370"
-            height="294"
-          />
-          <figcaption>
-            <p class="projects">Growing Business</p>
-            <p class="projects-text">Aplikacja</p>
-          </figcaption>
-        </figure>
+      <div class="container-p">
+        <ul class="cardsp">
+          <li class="itemsp">
+            <figure>
+              <img
+                src="./images/src.jpg"
+                alt="zdjecie John Doe"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p class="projects">Technocrack</p>
+                <p class="projects-text">Strona internetowa</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="itemsp">
+            <figure>
+              <img
+                src="./images/src2.jpg"
+                alt="zdjecie John Doe"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p class="projects">Grafika New Orlean vs Golden Star</p>
+                <p class="projects-text">Dizajn</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="itemsp">
+            <figure>
+              <img
+                src="./images/src3.jpg"
+                alt="zdjecie John Doe"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p class="projects">Restauracja Seafood</p>
+                <p class="projects-text">Aplikacja</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="itemsp">
+            <figure>
+              <img
+                src="./images/src4.jpg"
+                alt="zdjecie John Doe"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p class="projects">Projekt Prime</p>
+                <p class="projects-text">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="itemsp">
+            <figure>
+              <img
+                src="./images/src5.jpg"
+                alt="zdjecie John Doe"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p class="projects">Projekt Boxes</p>
+                <p class="projects-text">Aplikacja</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li class="itemsp">
+            <figure>
+              <img
+                src="./images/src6.jpg"
+                alt="zdjecie John Doe"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p class="projects">Inspiration has no Borders</p>
+                <p class="projects-text">Strona internetowa</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="itemsp">
+            <figure>
+              <img
+                src="./images/src7.jpg"
+                alt="zdjecie John Doe"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p class="projects">Magazyn Limited Edition</p>
+                <p class="projects-text">Dizajn</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="itemsp">
+            <figure>
+              <img
+                src="./images/src8.jpg"
+                alt="zdjecie John Doe"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p class="projects">Projekt LAB</p>
+                <p class="projects-text">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="itemsp">
+            <figure>
+              <img
+                src="./images/src9.jpg"
+                alt="zdjecie John Doe"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p class="projects">Growing Business</p>
+                <p class="projects-text">Aplikacja</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
       </div>
     </main>
 
-    <footer>
-      <a class="logo" href="index.html"
-        >Web<span class="studio">Studio</span></a
-      >
-      <address>
-        <p class="footer-text">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a class="footer-link" href="/info@example.com">info@example.com</a>
-        <a class="footer-link" href="/+48111111111">+48 111 111 111</a>
-      </address>
+    <footer class="section">
+      <div class="container-footer">
+        <a class="logo" href="index.html"
+          >Web<span class="studio">Studio</span></a
+        >
+        <address>
+          <p class="footer-text">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <a class="footer-link" href="/info@example.com">info@example.com</a>
+          <a class="footer-link" href="/+48111111111">+48 111 111 111</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
