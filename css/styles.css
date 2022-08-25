@@ -1,8 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: var(--hotblack);
   background: #ffffff;
+  width: 1600px;
+  margin: 0 auto;
 }
 :root {
   --pink: #8b008b;
@@ -15,6 +21,9 @@ body {
   --lowgray: #2f303a;
   --lightgrey: #f5f4fa;
   --red: #ff0000;
+}
+ul {
+  list-style: none;
 }
 .logo {
   font-family: "Raleway";
@@ -50,6 +59,7 @@ button:active {
   line-height: 1.87;
   cursor: pointer;
   color: var(--white);
+  padding: 10px 42px 10px 41px;
 }
 .button:hover,
 .button:focus,
@@ -81,11 +91,20 @@ a {
 .link-active:active {
   color: var(--red);
 }
+.header-pages .link .link-active {
+  display: block;
+}
 .first {
+  height: 600;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: var(--white);
+  background: var(--lowgray);
+}
+.two {
+  margin: 200 452 280 452;
+  text-align: center;
 }
 .description {
   font-size: 14px;
@@ -115,9 +134,6 @@ a {
 footer {
   background: var(--lowgray);
 }
-.first {
-  background: var(--lowgray);
-}
 .container--gray {
   background: var(--lightgrey);
 }
@@ -141,4 +157,23 @@ footer {
   font-size: 26px;
   line-height: 1.19;
   color: var(--white);
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin: 24px 93px 25px 215px;
+}
+.container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+.header-pages {
+  display: flex;
+  gap: 16px;
+}
+.header-links {
+  display: flex;
+  gap: 50px;
+  margin-right: 227px;
 }
