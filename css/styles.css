@@ -156,6 +156,7 @@ footer {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   background: var(--lowgray);
+  height: 600px;
 }
 .sectionlist {
   padding-top: 94px;
@@ -335,18 +336,19 @@ button:active {
   letter-spacing: 0.03em;
   margin-block-end: 1em;
 }
-  .section1 {
+  .section-description {
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  .section1 ul {
+  .section-description ul {
     display: flex;
   }
-  .section1 h5 {
+  .section-description h5 {
     color: #757575;
     text-align: left;
     font-size: 14px;
   }
-  .section1 p {
+  .section-description p {
     text-align: left;
   }
+  
