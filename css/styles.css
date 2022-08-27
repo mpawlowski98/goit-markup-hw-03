@@ -144,35 +144,21 @@ footer {
 }
 .first {
   text-align: center;
-}
-.section-top {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  margin:0 auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: var(--white);
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 94px;
+}
+.section-top {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  text-align: center;
   background: var(--lowgray);
   height: 600px;
-  margin:0 auto;
-}
-.sectionlist {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.sectionlist ul {
-  display: flex;
-}
-.sectionlist h5 {
-  color: #757575;
-  text-align: left;
-  font-size: 14px;
-}
-.sectionlist p {
-  text-align: left;
 }
 .cointainer-description {
   display: flex;
@@ -352,4 +338,3 @@ button:active {
   .section-description p {
     text-align: left;
   }
-  
