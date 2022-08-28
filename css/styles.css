@@ -130,17 +130,20 @@ footer {
   margin: 0 auto;
   padding: 24px;
   justify-content: space-between;
+  align-items: baseline;
 }
 .header-pages {
   display: flex;
   gap: 16px;
   margin-left: auto;
   margin-right: 371px;
+  align-items: center;
 }
 .header-links {
   display: flex;
   gap: 50px;
   margin-right: auto;
+  align-items: center;
 }
 .first {
   text-align: center;
@@ -226,6 +229,7 @@ footer {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   padding: 0px;
+  background: var(--white);
 }
 .container-footer {
   margin: 0 auto;
