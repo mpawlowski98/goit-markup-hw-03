@@ -34,7 +34,7 @@ a {
 .link:hover,
 .link:focus,
 .link:active {
-  color: var(--red);
+  color: var(--lowblue);
 }
 .link-active {
   font-weight: 500;
@@ -46,7 +46,7 @@ a {
 .link-active:hover,
 .link-active:focus,
 .link-active:active {
-  color: var(--red);
+  color: var(--lowblue);
 }
 .header-pages .link .link-active {
   display: block;
@@ -78,7 +78,7 @@ a {
 }
 .footer-link:hover,
 .footer-link:focus {
-  color: var(--red);
+  color: var(--lowblue);
 }
 footer {
   background: var(--lowgray);
@@ -151,7 +151,6 @@ footer {
   color: var(--white);
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 94px;
 }
 .section-top {
   padding-bottom: 94px;
@@ -159,6 +158,10 @@ footer {
   text-align: center;
   background: var(--lowgray);
   height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .cointainer-description {
   display: flex;
@@ -274,7 +277,7 @@ button {
 button:hover,
 button:focus,
 button:active {
-  color: var(--red);
+  color: var(--lowblue);
 }
 .button {
   font-weight: 700;
