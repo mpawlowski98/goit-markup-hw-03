@@ -130,14 +130,13 @@ footer {
   margin: 0 auto;
   padding: 24px;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 .header-pages {
   display: flex;
   gap: 16px;
   margin-left: auto;
   margin-right: 371px;
-  align-items: center;
 }
 .header-links {
   display: flex;
@@ -147,7 +146,7 @@ footer {
 }
 .first {
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -331,18 +330,18 @@ button:active {
   letter-spacing: 0.03em;
   margin-block-end: 1em;
 }
-  .section-description {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  .section-description ul {
-    display: flex;
-  }
-  .section-description h5 {
-    color: #757575;
-    text-align: left;
-    font-size: 14px;
-  }
-  .section-description p {
-    text-align: left;
-  }
+.section-description {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-description ul {
+  display: flex;
+}
+.section-description h5 {
+  color: #757575;
+  text-align: left;
+  font-size: 14px;
+}
+.section-description p {
+  text-align: left;
+}
